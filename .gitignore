@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# Data files (too large for GitHub)
+data/*.csv
+data/*.pcap
+data/*.parquet
+
+# Model checkpoints
+outputs/models/*.pth
+outputs/models/*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment
+.env
+miniforge/
+*.egg-info/
